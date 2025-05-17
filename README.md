@@ -24,19 +24,35 @@ Imagine this scenario:
 
 This tool helps Mohan craft **precise and persuasive cold emails**, tailored to the job listing on Nike’s careers page.
 
-📷 *Example Screenshot:*  
-![Example UI](img.png)
-
-📈 *Architecture Diagram:*  
-![Architecture](img.png)
-
 ---
 
 ## ⚙️ Setup Instructions
 
 ### 1. API Key
-- Get your `GROQ_API_KEY` from:  
+- Get your `GROQ_API_KEY` from:
   👉 https://console.groq.com/keys
 
-- Update the `.env` file located inside the `app/` directory with your API key:
+- Update the `.env` file located inside the `app/` directory with your API key: GROQ_API_KEY=your_api_key_here
+
+
+### 2. Install Dependencies
+
+Run the following command:
+
+```bash
+pip install -r requirements.txt
+
+
+### 3. Launch the App
+
+```bash
+streamlit run app/main.py
+
+🧠 Built With
+GROQ
+
+LangChain
+
+Streamlit
+
 
