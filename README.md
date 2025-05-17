@@ -39,18 +39,17 @@ Run the following command:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ### 3. Launch the App
 
+Run the following command:
+
 ```bash
 streamlit run app/main.py
+```
 
-🧠 Built With
-GROQ
 
-LangChain
 
-Streamlit
 
 
