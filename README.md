@@ -1,5 +1,3 @@
-# Cold_email_Generator
-
 # Cold Email Generator for Services Company
 
 This tool is built using **GROQ**, **LangChain**, and **Streamlit**, and is designed to help service-based companies send **personalized cold emails** based on company job listings.
