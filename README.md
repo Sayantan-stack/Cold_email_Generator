@@ -1,22 +1,42 @@
 # Cold_email_Generator
 
-Cold email generator for services company using groq, langchain and streamlit. It allows users to input the URL of a company's careers page. The tool then extracts job listings from that page and generates personalized cold emails. These emails include relevant portfolio links sourced from a vector database, based on the specific job descriptions.
+# Cold Email Generator for Services Company
 
-Imagine a scenario:
+This tool is built using **GROQ**, **LangChain**, and **Streamlit**, and is designed to help service-based companies send **personalized cold emails** based on company job listings.
 
-Nike needs a Principal Software Engineer and is spending time and resources in the hiring process, on boarding, training etc
-Atliq is Software Development company can provide a dedicated software development engineer to Nike. So, the business development executive (Mohan) from Atliq is going to reach out to Nike via a cold email.
-img.png
+## 🔍 What It Does
 
-Architecture Diagram
-img.png
+Users provide the **URL of a company's careers page**, and the tool:
 
-Set-up
-To get started we first need to get an API_KEY from here: https://console.groq.com/keys. Inside app/.env update the value of GROQ_API_KEY with the API_KEY you created.
+1. Extracts job listings from the page.
+2. Matches job descriptions with relevant portfolio links from a vector database.
+3. Generates **customized cold emails** for outreach.
 
-To get started, first install the dependencies using:
+---
 
- pip install -r requirements.txt
-Run the streamlit app:
+## 💡 Use Case
 
-streamlit run app/main.py
+Imagine this scenario:
+
+- **Nike** is hiring a *Principal Software Engineer* and is investing time and resources in hiring, onboarding, and training.
+- **Atliq**, a software development company, can provide dedicated engineers for such roles.
+- **Mohan**, a business development executive from Atliq, wants to reach out to Nike with a relevant offer.
+
+This tool helps Mohan craft **precise and persuasive cold emails**, tailored to the job listing on Nike’s careers page.
+
+📷 *Example Screenshot:*  
+![Example UI](img.png)
+
+📈 *Architecture Diagram:*  
+![Architecture](img.png)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. API Key
+- Get your `GROQ_API_KEY` from:  
+  👉 https://console.groq.com/keys
+
+- Update the `.env` file located inside the `app/` directory with your API key:
+
